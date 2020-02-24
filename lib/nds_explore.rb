@@ -14,7 +14,7 @@ def print_first_directors_movie_titles
   counter = 0 
   while counter < arrayM.length do
     title = arrayM[counter][:title]
-    print "#{title}"
+    puts "#{title}"
     counter += 1
   end
 end
