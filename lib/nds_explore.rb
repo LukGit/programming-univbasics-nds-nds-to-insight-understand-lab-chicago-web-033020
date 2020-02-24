@@ -11,5 +11,9 @@ end
 def print_first_directors_movie_titles
   pretty_print_nds(directors_database)
   arrayM = directors_database[0][:movies]
-  pp arrayM
+  counter = 0 
+  while counter < arrayM.length do
+    print arrayM[counter][:title]
+    counter += 1
+  end
 end
