@@ -13,7 +13,7 @@ def print_first_directors_movie_titles
   arrayM = directors_database[0][:movies]
   counter = 0 
   while counter < arrayM.length do
-    print arrayM[counter][:title]
+    print "#{arrayM[counter][:title]}"
     counter += 1
   end
 end
